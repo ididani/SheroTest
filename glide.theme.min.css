@@ -53,7 +53,7 @@
 .glide__bullets {
     position: absolute;
     z-index: 2;
-    bottom: 2em;
+    bottom: -2em;
     left: 50%;
     display: inline-flex;
     list-style: none;
@@ -80,12 +80,11 @@
 
 .glide__bullet:hover,
 .glide__bullet:focus {
-    border: 2px solid #fff;
-    background-color: rgba(255, 255, 255, .5)
+    background-color: #252525
 }
 
 .glide__bullet--active {
-    background-color: #fff
+    background-color: #252525
 }
 
 .glide--swipeable {
@@ -99,5 +98,3 @@
     cursor: -moz-grabbing;
     cursor: -webkit-grabbing
 }
-
-/*# sourceMappingURL=glide.theme.min.css.map */

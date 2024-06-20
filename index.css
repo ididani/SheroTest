@@ -124,7 +124,7 @@ footer {
 }
 
 .glide__slide img {
-    width: 90%;
+    width: 100%;
     height: auto !important;
 }
 
@@ -148,6 +148,7 @@ footer {
 @media (max-width: 800px) {
     .grid-container {
         grid-template-columns: 1fr;
+        width: 90%;
     }
 
     .grid-item {
@@ -159,8 +160,7 @@ footer {
     }
 
     .carousel {
-        width: 90%;
-        max-width: 200px;
+        width: 70%;
     }
 
     .glide__arrows svg {
@@ -176,6 +176,7 @@ footer {
     .product-box {
         flex-direction: row;
         align-items: center;
+        width: 100%;
     }
 
     .product-box img {
@@ -189,8 +190,16 @@ footer {
         text-align: left;
     }
 
+    .product-title{
+        font-size: large;
+    }
+
     .basic-button {
         width: auto;
         margin: 0;
+        background-color: transparent;
+        color: rgb(104, 104, 254);
+        font-size: 15px;
+        font-weight: bold;
     }
 }
